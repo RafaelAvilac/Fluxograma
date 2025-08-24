@@ -1,0 +1,56 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.1">
+  <diagram name="Página-1" id="nPExk2-JKVzAiHQAk9b7">
+    <mxGraphModel dx="1281" dy="586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CL-8wDbEtzrquw9WDNBZ-1" value="Elabore um algoritmo que efetue a entrada de um &#xa;valor inteiro qualquer. Se o número digitado for &#xa;negativo, emita a mensagem “Por favor, digite um &#xa;número positivo”. Se o número não for negativo, &#xa;emita a mensagem “Ok, tudo certo”." style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="20" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="CL-8wDbEtzrquw9WDNBZ-2" value="Entrada: Valor inteiro digitado pelo usuário&lt;div&gt;Processamento: Verificar se numero não é negativo&lt;/div&gt;&lt;div&gt;Saída: Emitir msg para usuário&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="30" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CL-8wDbEtzrquw9WDNBZ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CL-8wDbEtzrquw9WDNBZ-4" target="CL-8wDbEtzrquw9WDNBZ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CL-8wDbEtzrquw9WDNBZ-4" value="Início" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CL-8wDbEtzrquw9WDNBZ-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CL-8wDbEtzrquw9WDNBZ-6" target="CL-8wDbEtzrquw9WDNBZ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CL-8wDbEtzrquw9WDNBZ-6" value="Digite um numero&amp;nbsp;&lt;div&gt;inteiro&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="130" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CL-8wDbEtzrquw9WDNBZ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CL-8wDbEtzrquw9WDNBZ-10" target="CL-8wDbEtzrquw9WDNBZ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CL-8wDbEtzrquw9WDNBZ-16" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="CL-8wDbEtzrquw9WDNBZ-10" target="CL-8wDbEtzrquw9WDNBZ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CL-8wDbEtzrquw9WDNBZ-10" value="Nº &amp;gt;= 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="300" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CL-8wDbEtzrquw9WDNBZ-14" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=0.498;exitY=0.85;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CL-8wDbEtzrquw9WDNBZ-12" target="CL-8wDbEtzrquw9WDNBZ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CL-8wDbEtzrquw9WDNBZ-12" value="Ok Tudo certo&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="460" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CL-8wDbEtzrquw9WDNBZ-13" value="Fim" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="690" y="650" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CL-8wDbEtzrquw9WDNBZ-18" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CL-8wDbEtzrquw9WDNBZ-15" target="CL-8wDbEtzrquw9WDNBZ-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CL-8wDbEtzrquw9WDNBZ-15" value="Por favor digite um&amp;nbsp;&lt;div&gt;nº&lt;/div&gt;&lt;div&gt;positivo&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="460" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
